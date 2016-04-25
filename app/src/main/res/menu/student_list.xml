@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragments.StudentList">>
+    <item
+        android:id="@+id/menu_student_list_search"
+        android:title="@string/search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="collapseActionView|ifRoom"></item>
+
+    <item
+        android:id="@+id/menu_student_list_order_by_english_name"
+        android:orderInCategory="1"
+        android:title="@string/order_by_english_name"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/menu_student_list_order_by_korean_name"
+        android:orderInCategory="2"
+        android:title="@string/order_by_korean_name"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/menu_student_list_order_by_age_desc"
+        android:orderInCategory="3"
+        android:title="@string/order_by_age_desc"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/menu_student_list_order_by_age_asc"
+        android:orderInCategory="4"
+        android:title="@string/order_by_age_asc"
+        app:showAsAction="never"></item>
+
+</menu>

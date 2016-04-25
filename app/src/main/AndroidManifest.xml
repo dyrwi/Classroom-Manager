@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dyrwi.classroommanager">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:name=".activities.GlobalApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.NewToolbarMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.AddEditStudent"></activity>
+        <activity
+            android:name=".activities.ORMLiteTest"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".activities.AddNewClassroom"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".activities.SimpleStudentList"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activities.StudentDetails"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activities.ClassroomDetails"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activities.ClassroomRecordActivity"
+            android:label="@string/app_name"></activity>
+        <activity android:name=".activities.CropImage" />
+        <activity android:name=".activities.MaterialStudentDetails"/>
+        <activity android:name=".activities.MaterialClassroomDetails"/>
+
+    </application>
+</manifest>

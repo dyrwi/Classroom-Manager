@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#3F51B5</item>
+        <!-- Light Indigo -->
+        <item name="colorPrimaryDark">#3949AB</item>
+        <!-- Dark Indigo -->
+        <item name="colorAccent">#00B0FF</item>
+        <!-- Blue -->
+    </style>
+    <style name="AppTheme" parent="AppTheme.Base"></style>
+
+    <style name="MyToolbar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:background">@color/light_blue</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="MyToolbarPopUp" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:background">@color/md_black_1000</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+    <color name="brown">#493334</color>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <!-- Color Styles -->
+    <color name="light_blue">#25CED1</color>
+    <color name="white">#FFFFFF</color>
+    <color name="pink">#FCEADE</color>
+    <color name="orange">#FF8A5B</color>
+    <color name="maroon">#EA526F</color>
+
+
+</resources>

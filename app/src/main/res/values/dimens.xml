@@ -1,0 +1,38 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="name_header">18sp</dimen>
+    <dimen name="name_subheader">14sp</dimen>
+    <dimen name="card_height">304dp</dimen>
+    <dimen name="md_keylines">16dp</dimen>
+    <dimen name="tile_padding">8dp</dimen>
+    <dimen name="tile_height">160dp</dimen>
+    <dimen name="app_bar_height">256dp</dimen>
+    <dimen name="article_keylines">72dp</dimen>
+    <dimen name="avator_size">40dp</dimen>
+    <dimen name="card_title_height">40dp</dimen>
+    <dimen name="article_titles">20sp</dimen>
+    <dimen name="cards_button_width">48dp</dimen>
+    <dimen name="cards_button_height">48dp</dimen>
+    <dimen name="article_subheading">16sp</dimen>
+    <dimen name="card_image_height">200dp</dimen>
+    <dimen name="student_image_height">256dp</dimen>
+    <dimen name="list_body">14sp</dimen>
+    <dimen name="navheader_height">222dp</dimen>
+    <dimen name="item_student_height">64dp</dimen>
+    <dimen name="item_layout_padding">8dp</dimen>
+    <dimen name="list_item_height">72dp</dimen>
+    <dimen name="space_between_content_areas">8dp</dimen>
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="status_bar_height">24dp</dimen>
+    <dimen name="tab_height">56dp</dimen>
+    <dimen name="list_item_icon_space">56dp</dimen>
+    <dimen name="scroll_view_contents_height">32dp</dimen>
+    <dimen name="sheet_text_scrim_height_top">88dp</dimen>
+    <dimen name="sheet_text_scrim_height_bottom">88dp</dimen>
+    <dimen name="student_details_app_bar_height">356dp</dimen>
+    <dimen name="student_details_image_keylines">56dp</dimen>
+    <dimen name="student_details_info_size">16sp</dimen>
+    <dimen name="text_body_2">14sp</dimen>
+</resources>
