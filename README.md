@@ -1,9 +1,9 @@
 # Classroom-Manager
-An Android application that enables teachers to manage homework and attendance in the classroom
+An Android application that enables teachers to manage homework and attendance in the classroom.
 
-This is not finished. This went through a lot of iterations, changing from a simple app top a complicated one. 
+I created this to help with my previous work (ESL teacher in Korea).
 
-This was my first large project, and it shows in  the app.
+This is not finished. This went through a lot of iterations, changing from a simple app to a complicated one.  
 
 # Screenshots
 ![alt text](https://github.com/dyrwi/Classroom-Manager/blob/master/screenshots/feed.png "Feed")
@@ -15,7 +15,7 @@ This was my first large project, and it shows in  the app.
 ![alt text](https://github.com/dyrwi/Classroom-Manager/blob/master/screenshots/classroom_record.png "Classroom Record")
 
 # Credits
-Big thanks to the following for their help in creating this app.
+Big thanks to the following for their help in creating this app.  
 
 <b>ORMLite:</b> https://github.com/j256/ormlite-android <br />
 <b>Android Iconics:</b> https://github.com/mikepenz/Android-Iconics <br />
